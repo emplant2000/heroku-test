@@ -1,3 +1,4 @@
+<script>
 Pi.authenticate(['username'], onIncomplete, onReady);
 
 function onReady(auth) {
@@ -10,3 +11,4 @@ function onReady(auth) {
   .then(r => r.text())
   .then(console.log);
 }
+</script>
